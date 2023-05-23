@@ -30,13 +30,13 @@ jobs:
       - name: Run tests
         uses: game-ci/unity-test-runner@v2
         with:
-          unityVersion: '2020.3.24'
+          unityVersion: '2020.3.7f1'
 
       # Build
       - name: Build project
         uses: game-ci/unity-builder@v2
         with:
-          unityVersion: '2020.3.24'
+          unityVersion: '2020.3.7f1'
           targetPlatform: StandaloneWindows64 
 
       # Output 
